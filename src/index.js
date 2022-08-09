@@ -11,4 +11,3 @@ jokeBtn.addEventListener('click', generatejoke)
 
 generatejoke()
 
-// https://github.com/bradtraversy/webpack-starter/blob/main/webpack.config.js
