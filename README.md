@@ -1,6 +1,8 @@
-# Webpack App
+# Webpack Starter 
 
-Frontend environment for building JavaScript applications
+Frontend environment for building JavaScript applications; A simple 'Do not laugh Challange'
+
+![](./Screenshot.jpg)
 
 Includes the following features...
 
@@ -19,6 +21,8 @@ Run Dev Server (Port 7000)
 ```
   npm run dev
 ```
+## Live Demo
+[Don't Laugh Challange](https://gordonotieno.github.io/webpack-starter/)
 
 ## Build for production
 

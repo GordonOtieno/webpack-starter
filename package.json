@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "deploy": "gh-pages -d dist/"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@babel/preset-env": "^7.18.10",
     "babel-loader": "^8.2.5",
     "css-loader": "^6.7.1",
+    "gh-pages": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "sass": "^1.54.3",
     "sass-loader": "^13.0.2",
