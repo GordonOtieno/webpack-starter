@@ -1,13 +1,11 @@
-import  generatejoke from './generatejoke';
+import generatejoke from './generatejoke';
 import './styles/main.css';
-import laughing from './assets/test.svg'
+import laughing from './assets/test.svg';
 
-const laughImg = document.getElementById('testImg')
-laughImg.src = laughing
+const laughImg = document.getElementById('testImg');
+laughImg.src = laughing;
 
+const jokeBtn = document.getElementById('jokeBtn');
+jokeBtn.addEventListener('click', generatejoke);
 
-const jokeBtn = document.getElementById('jokeBtn')
-jokeBtn.addEventListener('click', generatejoke)
-
-generatejoke()
-
+generatejoke();
