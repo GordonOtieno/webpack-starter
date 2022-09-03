@@ -1,5 +1,5 @@
 import  generatejoke from './generatejoke';
-import './styles/main.scss';
+import './styles/main.css';
 import laughing from './assets/test.svg'
 
 const laughImg = document.getElementById('testImg')
