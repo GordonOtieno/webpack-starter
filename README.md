@@ -19,7 +19,7 @@ Includes the following features...
 Run Dev Server (Port 7000)
 
 ```
-  npm run dev
+  npm start
 ```
 ## Live Demo
 [Don't Laugh Challange](https://gordonotieno.github.io/webpack-starter/)
